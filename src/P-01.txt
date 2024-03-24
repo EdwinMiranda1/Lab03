@@ -1,0 +1,8 @@
+¿Cómo funciona el archivo .gitignore?
+El archivo .gitignore especifica los archivos y directorios que Git debe ignorar durante el control de versiones. Esto significa que los archivos y directorios listados en este archivo no se incluirán en los commits ni se rastrearán en el repositorio Git. Por ejemplo, si tenemos un proyecto web y no queremos que se incluyan los archivos de la carpeta node_modules en el repositorio, podemos agregar node_modules/ al archivo .gitignore.
+
+¿Cómo funciona el archivo package.json?
+El archivo package.json es un archivo de configuración utilizado en proyectos de Node.js. Contiene metadatos del proyecto, como nombre, versión, scripts de npm y dependencias del proyecto. Por ejemplo, podemos agregar dependencias de desarrollo al proyecto ejecutando npm install <package-name> --save-dev, lo que agregará la dependencia al archivo devDependencies en package.json.
+
+¿Qué es el archivo main.js y cómo funciona?
+El archivo main.js es comúnmente utilizado como el punto de entrada principal de una aplicación JavaScript. Es el archivo que se ejecutará primero cuando la aplicación se inicie. En proyectos Node.js, el main.js puede ser especificado en el campo "main" del archivo package.json, lo que indica al entorno Node.js que este archivo es el punto de entrada principal del proyecto. Por ejemplo, en un proyecto de servidor Node.js, main.js podría contener el código para configurar y ejecutar el servidor.

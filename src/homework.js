@@ -10,7 +10,8 @@
 
   /*Resultado esperado: [5, 10, 15, 20, 25] */
 
-  /* First excercise */
+  let multipliedNumbers = numbers.map(num => num * 5);
+  console.log("Resultado del primer ejercicio:", multipliedNumbers);
 
   /* Second excercise */
 
@@ -19,6 +20,8 @@
   /* Ordernar los nombres alfabeticamente */
 
   /* Resultado esperado: ["Daniel", "Jhosep", "Rodrigo", "Veronica"] */
+  let sortedNames = names.sort();
+  console.log("Resultado del segundo ejercicio:", sortedNames);
 
   /* Second excercise */
 
@@ -28,6 +31,9 @@
 
   /* Dado un arreglo, crear otro sin letras repetidas */
   /* Resultado esperado: ['a', 'b', 'z', 'r', 'c'] */
+  let uniqueLetters = Array.from(new Set(data));
+  console.log("Resultado del tercer ejercicio:", uniqueLetters);
+
 
   /* Thrid excercise */
 
@@ -48,6 +54,11 @@
       D: 1
     }
   */
+    let letterCount = {};
+    for (let letter of largeWord) {
+      letterCount[letter] = (letterCount[letter] || 0) + 1;
+    }
+    console.log("Resultado del cuarto ejercicio:", letterCount);
 
   /* Fourth excercise */
 
