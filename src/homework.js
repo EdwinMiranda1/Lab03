@@ -33,9 +33,7 @@
   /* Resultado esperado: ['a', 'b', 'z', 'r', 'c'] */
   let uniqueLetters = Array.from(new Set(data));
   console.log("Resultado del tercer ejercicio:", uniqueLetters);
-
-
-  /* Thrid excercise */
+ 
 
   /* Fourth excercise */
 
